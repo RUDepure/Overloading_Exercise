@@ -10,11 +10,13 @@ namespace Overloading_Exercise
         {
             var answer1 = Add(2, 2);
             var answer2 = Add(2466m, .2145m);
-            var answer3 = Add(10, 20, true);
+            var answer3 = Add(1, 0, true);
+            var answer4 = Add(25, 20, true);
 
             Console.WriteLine(answer1);
             Console.WriteLine(answer2);
             Console.WriteLine(answer3);
+            Console.WriteLine(answer4);
         }
 
         public static int Add(int a, int b)
